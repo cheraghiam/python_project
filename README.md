@@ -20,6 +20,18 @@ A beginner-friendly Python project that performs basic arithmetic operations —
 2. Make sure Python 3 is installed on your system.
 3. Run the script using the terminal:
 
+🎓 Educational Goals
+This project is great for:
+
+Practicing functions, if-else, and input/output
+
+Learning how to organize code for reusability
+
+Understanding how __name__ == "__main__" works
+
+🧠 License
+This project is open source and free to use under the MIT License.
+
 ```bash
 python calculator.py
 
