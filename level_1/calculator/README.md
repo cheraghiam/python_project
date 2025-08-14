@@ -33,5 +33,5 @@ Understanding how __name__ == "__main__" works
 This project is open source and free to use under the MIT License.
 
 ```bash
-python calculator.py
+python src/calculator.py
 
