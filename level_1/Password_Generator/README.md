@@ -1,4 +1,4 @@
-![image](/images/password%20generator.jpg)
+![image](./images/password%20generator.jpg)
 # Password Generator
 
 A Python project for generating different types of passwords, including PINs, random passwords, and memorable passwords using English words.
