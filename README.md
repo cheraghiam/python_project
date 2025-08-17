@@ -15,6 +15,8 @@ python_project/
 ├── level_1/           # Beginner projects
 │   ├── calculator/
 │   ├── Number_Gusser/
+│   ├── Password_Generator/
+│   ├── dashbord/
 │   └── rock_paper_scissors/
 ├── level_2/           # Intermediate projects (to be added)
 ├── level_3/           # Advanced projects (to be added)
