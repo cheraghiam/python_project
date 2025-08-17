@@ -61,6 +61,8 @@ python calculator.py
 ### level_1 (Beginner)
 - **Calculator**: A simple command-line calculator for basic arithmetic operations.
 - **Number Guesser**: Guess a randomly generated number between 1 and 100.
+- **Password Generator**: Generate secure random passwords with customizable options.
+- **Dashboard**: A simple dashboard project (details in its folder).
 - **Rock, Paper, Scissors**: Play the classic game against the computer.
 
 ### level_2 (Intermediate)
