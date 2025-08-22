@@ -1,4 +1,4 @@
-![image](./images/Rock_Paper_scissors.webp)
+<img src="./images/Rock_Paper_scissors.webp" alt="Rock Paper Scissors" width="500">
 # Rock, Paper, Scissors
 
 ## Structure
