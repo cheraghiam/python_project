@@ -18,13 +18,17 @@ python_project/
 │   ├── Password_Generator/
 │   ├── dashbord/
 │   └── rock_paper_scissors/
-├── level_2/           # Intermediate projects (to be added)
+├── level_2/           # Intermediate projects
+│   ├── youtube_downloader/
+│   ├── currency_converter/
+│   ├── number_to_word/
+│   └── site_connectivity_checker/
 ├── level_3/           # Advanced projects (to be added)
 ```
 
 Each `level_X` directory contains projects of increasing difficulty:
 - **level_1**: Beginner-friendly projects to build foundational Python skills.
-- **level_2**: Intermediate projects (coming soon) to deepen your understanding.
+- **level_2**: Intermediate projects to deepen your understanding.
 - **level_3**: Advanced projects (coming soon) for challenging yourself and mastering Python.
 
 ---
@@ -32,18 +36,18 @@ Each `level_X` directory contains projects of increasing difficulty:
 ## 🚀 Installation
 
 1. Clone this repository:
-	```bash
-	git clone https://github.com/amirabbas316/python_project.git
-	```
+    ```bash
+    git clone https://github.com/amirabbas316/python_project.git
+    ```
 2. Navigate to the project directory:
-	```bash
-	cd python_project
-	```
+    ```bash
+    cd python_project
+    ```
 3. (Optional) Create and activate a virtual environment:
-	```bash
-	python3 -m venv venv
-	source venv/bin/activate
-	```
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 4. Install dependencies for each project as needed (see each project's `Requirements.txt`).
 
 ## 🛠️ Usage
@@ -66,7 +70,10 @@ python calculator.py
 - **Rock, Paper, Scissors**: Play the classic game against the computer.
 
 ### level_2 (Intermediate)
-- _More projects coming soon!_
+- **YouTube Downloader**: Download videos from YouTube using a URL.
+- **Currency Converter**: Convert amounts between different currencies using real-time exchange rates.
+- **Number to Word**: Convert numeric values into their word representation.
+- **Site Connectivity Checker**: Check if a website is reachable and online.
 
 ### level_3 (Advanced)
 - _More projects coming soon!_
