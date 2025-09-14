@@ -1,4 +1,4 @@
-![image](/images/PythonProjects11.png)
+	![image](/images/PythonProjects11.png)
 
 
 # Python Projects   
@@ -7,6 +7,7 @@ A collection of Python projects ranging from beginner to advanced levels. Explor
 
 
 ## 📁 Project Structure
+
 
 ```
 python_project/
@@ -17,8 +18,13 @@ python_project/
 │   ├── Number_Gusser/
 │   ├── Password_Generator/
 │   ├── dashbord/
+│   ├── Tic_Tac_Toe/
+│   ├── Happy_Number/
+│   ├── Monty_Hall_Simulation/
+│   ├── Contact_book/
 │   └── rock_paper_scissors/
-├── level_2/           # Intermediate projects (to be added)
+├── level_2/           # Intermediate projects
+│   ├── Currency_Converter/
 ├── level_3/           # Advanced projects (to be added)
 ```
 
@@ -62,11 +68,15 @@ python calculator.py
 - **Calculator**: A simple command-line calculator for basic arithmetic operations.
 - **Number Guesser**: Guess a randomly generated number between 1 and 100.
 - **Password Generator**: Generate secure random passwords with customizable options.
-- **Dashboard**: A simple dashboard project (details in its folder).
+- **Dashboard**: A simple dashboard project for managing and visualizing data.
+- **Tic Tac Toe**: Play the classic Tic Tac Toe game against another player or the computer.
+- **Happy Number**: Check if a number is a happy number with this simple tool.
+- **Monty Hall Simulation**: Simulate the Monty Hall problem and explore probability concepts.
+- **Contact Book**: Manage contacts with add, search, and delete features.
 - **Rock, Paper, Scissors**: Play the classic game against the computer.
 
 ### level_2 (Intermediate)
-- _More projects coming soon!_
+- **Currency Converter**: Convert between different currencies using real-time exchange rates.
 
 ### level_3 (Advanced)
 - _More projects coming soon!_
