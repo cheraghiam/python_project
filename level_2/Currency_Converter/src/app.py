@@ -20,3 +20,14 @@ basecr, targetcr = exchange_rates(base_select_box, target_select_bos)
 
 st.markdown(f'### 1 {base_select_box} = {targetcr/basecr:.4f} {target_select_bos}')
 
+st.markdown('---')
+
+col11, col22, col33 = st.columns(3)
+amount = col11.number_input(f'Amount in {base_select_box}', min_value=0.00, value=1.00)
+col22.write('**Converted Amount**')
+converted_amount = (targetcr/basecr) * amount
+col33.write(f'**{converted_amount:.4f} {target_select_bos}**')
+
+st.markdown('---')
+
+
