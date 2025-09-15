@@ -3,15 +3,16 @@
 A simple command-line Tic Tac Toe game implemented in Python. The user plays as 'X' and the computer plays as 'O'.
 
 ## Features
-- Play against the computer (random moves)
-- Board displayed after each move
-- Win detection for both players
-- Input validation for user moves
 
 ## How to Run
 
 1. Make sure you have Python 3 installed.
-2. Open a terminal in the `src` directory.
+python src/main.py
+```
+
+## Educational Value
+- Practice with lists, loops, and game logic
+- Learn about state management
 3. Run the game:
 
 ```bash

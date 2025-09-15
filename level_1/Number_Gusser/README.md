@@ -15,19 +15,24 @@ Number Gusser is a simple command-line game where you try to guess a randomly se
 3. The game will tell you if your guess is too high or too low.
 4. Each incorrect guess reduces your score by 10 points.
 5. Type `q` at any time to quit the game.
-6. When you guess the correct number, your score is displayed and you can choose to play again or exit.
+A fun guessing game where you try to guess a randomly generated number between 1 and 100.
 
 ## Features
-- Random number selection between 1 and 100
-- Score tracking (starts at 100, -10 per wrong guess)
-- Input validation and helpful prompts
-- Option to play multiple rounds
+- Random number generation
+- Score tracking
+- Replay option
 
-## Requirements
-- Python 3.x
+## How to Run
+```bash
+python src/main.py
+```
+
+## Educational Value
+- Practice loops, conditionals, and random module
+- User input validation
+- Input validation and helpful prompts
 
 ## Example
-```
 Enter Your Number: 50
 Your Number too Low
 Enter Your Number: 75

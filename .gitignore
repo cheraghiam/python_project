@@ -1,0 +1,25 @@
+# Python .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+*.sqlite3
+*.log
+*.db
+*.bak
+*.swp
+*.swo
+*.tmp
+*.out
+*.coverage
+*.mypy_cache/
+*.pytest_cache/
+*.ipynb_checkpoints/
+test.ipynb
