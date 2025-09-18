@@ -1,4 +1,5 @@
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2RvXnACiAAamaZNybDnbSZNtp7-AlTMYOg&s)
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2RvXnACiAAamaZNybDnbSZNtp7-AlTMYOg&s" alt="Python Projects" width="700"/>
 
 # Python Projects   
 
