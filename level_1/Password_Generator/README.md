@@ -22,7 +22,8 @@ A Python project for generating different types of passwords, including PINs, ra
 ## Usage
 Run the main script to generate sample passwords:
 ```bash
-python src/main.py
+export PYTHONPATH=$PYTHONPATH:`pwd`
+python src/run.py
 ```
 
 Example output:
