@@ -1,26 +1,13 @@
-from abc import ABC, abstractmethod
 import string
 import random
 
 
 import nltk
 
+from src.password_generator_base import PasswordGenerator
+
 
 nltk.download('words')
-
-
-
-class PasswordGenerator(ABC):
-    """Abstract base class for password generators.
-
-    Args:
-        ABC (type): Abstract base class.
-    """
-    @abstractmethod
-    def generate(self) -> None:
-        """Generate a password.
-        """
-        pass
 
 
 class PinPasswordGenerator(PasswordGenerator):
@@ -34,7 +21,7 @@ class PinPasswordGenerator(PasswordGenerator):
 
     def generate(self) -> str:
         return ''.join([random.choice(string.digits) for _ in range(self.length)])
-    
+ 
 
 class RandomPasswordGenerator(PasswordGenerator):
     """Random password generator.
