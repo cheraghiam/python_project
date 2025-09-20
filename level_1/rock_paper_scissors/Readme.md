@@ -13,7 +13,8 @@
 To start the game, run the following command:
 
 ```bash
-python src/main.py
+export PYTHONPATH=$PYTHONPATH:`pwd`
+python src/check_result.py
 ```
 
 ## Hints
