@@ -1,6 +1,6 @@
 import random 
 
-from src.main import game_items
+from src.constants import game_items
 
 
 def get_item_from_computer():

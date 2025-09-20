@@ -1,4 +1,4 @@
-from src.main import game_items
+from src.constants import game_items
 
 
 def get_user_choice():
