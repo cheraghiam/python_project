@@ -1,6 +1,6 @@
 from src.constants import winner
-from src.get_from_pc import get_item_from_computer
-from src.get_from_user import get_user_choice
+from src.GameIO import get_item_from_computer
+from src.GameIO import get_user_choice
 
 
 user_choice = get_user_choice()

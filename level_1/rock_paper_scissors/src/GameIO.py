@@ -1,4 +1,11 @@
+import random 
+
 from src.constants import game_items
+from src.constants import game_items
+
+
+def get_item_from_computer():
+    return random.choice(game_items)
 
 
 def get_user_choice():
@@ -11,3 +18,4 @@ def get_user_choice():
 
 if __name__ == "__main__":
     print(get_user_choice())
+    print(get_item_from_computer())
