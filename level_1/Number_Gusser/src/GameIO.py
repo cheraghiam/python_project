@@ -17,4 +17,3 @@ if __name__ == "__main__":
     print(target_number())
     user_guess = user_guess()
     print(user_guess)
-    
