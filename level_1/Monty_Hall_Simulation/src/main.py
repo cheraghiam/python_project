@@ -31,7 +31,7 @@ def simulation(switch: bool) -> str:
         return doors[number_of_choice]
     
 
-def counter_simulation(counter: int, strategy=False) -> tuple[str, str]:
+def counter_simulation(counter: int, strategy=False) -> tuple:
     """Simulate the Monty Hall game multiple times and return the results.
 
     Args:
