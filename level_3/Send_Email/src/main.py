@@ -1,9 +1,18 @@
 import smtplib
+from email.mime.text import MIMEText
 
 
-s = smtplib.SMTP('smtp.gmail.com', 587)
-s.starttls()
-s.login("warzone84@gmail.com", "vhrr mvol oufn fztu")
-message = "Message_you_need_to_send"
-s.sendmail("warzone8419@gmail.com", "warzone8419@gmail.com", message)
-s.quit()
+msg = MIMEText('Hello, this is a test email')
+msg['Subject'] = 'Test email'
+msg['From'] = 'your gmail address'
+msg['To'] = 'recipient email address'
+
+server = smtplib.SMTP('smtp.gmail.com', 587)
+sender_email = 'your gmail address'
+password = 'your gmail app password'
+
+server.starttls()
+server.login(sender_email, password)
+server.send_message(msg)
+server.quit()
+print("Email sent successfully!")
