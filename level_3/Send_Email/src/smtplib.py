@@ -16,3 +16,6 @@ server.login(sender_email, password)
 server.send_message(msg)
 server.quit()
 print("Email sent successfully!")
+
+if __name__ == "__main__":
+    print("Email sent successfully!")
