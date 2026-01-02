@@ -1,4 +1,5 @@
 import streamlit as st
+from EMS.db import user_table
 
 
 st.title("User Profile")
@@ -16,4 +17,11 @@ with st.form("user_profile_form"):
     submitted = st.form_submit_button("Update Profile")
 
     if submitted:
+        user_table.insert({
+            'first_name' : first_name,
+            'last_name' : last_name,
+            'email' : email,
+            'degree' : degree
+        })
+
         st.success("Profile updated successfully!")
