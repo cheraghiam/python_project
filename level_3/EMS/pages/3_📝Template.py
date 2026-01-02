@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("📝 Email Templates")
+st.title("Email Templates")
 
 with st.form("email_template_form"):
     template_name = st.text_input("Template Name")

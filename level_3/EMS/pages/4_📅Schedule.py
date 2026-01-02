@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import date, time
 
 
-st.title("📅 Schedule Email")
+st.title("Schedule Email")
 
 send_date = st.date_input("Select Date", value=None)
 send_time = st.time_input("Select Time", value=None)

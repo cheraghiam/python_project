@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("👤👤 Profile Users")
+st.title("Profile Users")
 
 col1, col2 = st.columns(2)
 

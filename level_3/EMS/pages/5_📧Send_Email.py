@@ -1,7 +1,7 @@
 import streamlit as st 
 
 
-st.title("📧 Send Email")
+st.title("Send Email")
 
 with st.form("send_email_form"):
     recipient = st.text_input("Recipient Email Address")
