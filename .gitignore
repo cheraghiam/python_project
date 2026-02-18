@@ -218,3 +218,5 @@ __marimo__/
 #custome
 .streamlit/config.toml
 *.ipynb
+test.ipynb
+.DS_Store
