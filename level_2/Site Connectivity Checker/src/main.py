@@ -22,6 +22,7 @@ site_list = [
     "https://lms.shahroodut.ac.ir/Guest/kljsdlfkjs"
 ]
 
+
 if __name__ == "__main__":
     assert site_checker_availibility(url=site_list[0]) == True
     assert site_checker_availibility(url=site_list[3]) == True
